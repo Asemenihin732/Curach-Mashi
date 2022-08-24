@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog1</class>
+ <widget class="QDialog" name="Dialog1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>254</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="postlabel">
+          <property name="text">
+           <string>Provider</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="tellabel">
+          <property name="text">
+           <string>tel.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="countrylabel">
+          <property name="text">
+           <string>Country</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="articullabel">
+          <property name="text">
+           <string>Articul</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="vidlabel">
+          <property name="text">
+           <string>Kind</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="costlabel">
+          <property name="text">
+           <string>Cost</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLineEdit" name="Post"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="Tel"/>
+        </item>
+        <item>
+         <widget class="QComboBox" name="coutry">
+          <item>
+           <property name="text">
+            <string>Russia</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>USA</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>China</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Japon</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="Articul"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="Vid"/>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="cost">
+          <property name="buttonSymbols">
+           <enum>QAbstractSpinBox::NoButtons</enum>
+          </property>
+          <property name="maximum">
+           <number>999999999</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Ok</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Back</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
